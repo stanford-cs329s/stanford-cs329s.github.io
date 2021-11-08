@@ -27,22 +27,22 @@
     <div class="sechighlight">
         <div class="container sec" id="logistics">
             <div class="alert alert-danger" role="alert">
-                The course will be offered again in January 2022. Hopefully this time the course will be much better oganized!</a>
+                The course will be offered in Jan '22, in person.<br>
+                Non Stanford students can enroll via <a href="https://online.stanford.edu/courses/cs329s-machine-learning-systems-design">SCPD</a>.
             </div>
             <h2>Logistics</h2>
             <ul>
-                <li><b>Lectures</b>: Mon/Wed 2:30-3:50pm (PT) online, synchronous. Class: 75% lectures, 25% tutorials. Zoom links on Canvas.</li>
-                <li><b>Lecture videos</b>: on Canvas</li>
-                <li><b>Office hours</b> (Zoom links on Canvas):
+                <li><b>Lectures</b>: Mon/Wed 3:15 - 4:45pm PST. Class: 75% lectures, 25% tutorials.</li>
+                <li><b>Location</b>: Gates B1</li>
+                <li><b>Office hours</b>: TBD</li>
+                <li><b>Grading</b>:
                     <ul>
-                        <li>Wed 8.30am - 9am (Chip)</li>
-                        <li>Thu 8pm - 8.30pm (Karan)</li>
-                        <li>Sun 1pm - 1.30pm (Xi / Michael)</li>
+                        <li>one final project to build an ML application (60%). We'll have a demo day to showcase all students' final projects. See last year projects <a href="https://stanford-cs329s.github.io/reports/">here</a></li>
+                        <li>two to three fun, short assignments (30%)</li>
+                        <li>discussion participation in class + Piazza (10%)</li>
                     </ul>
                 </li>
-                <li><b>Grading</b>: one final project to build an ML application (60%), two to three fun, short assignments (30%), and discussion participation on Zoom + Piazza (10%).</li>
-                <li><b>Contact</b>: Students should ask <i>all</i> course-related questions on our <a href=" http://piazza.com/stanford/winter2021/cs329s">Piazza forum</a>, where you will also find all the announcements. For external enquiries, personal matters, or in emergencies, you can email us at
-                    <i>cs329s-win2021-staff@lists.stanford.edu</i>.</li>
+                <li><b>Contact</b>: Students should ask <i>all</i> course-related questions on our Piazza forum, where you will also find all the announcements.</li>
                 <li><b>Academic accommodations</b>: If you need an academic accommodation based on a disability, you should initiate the request with the <a href="https://oae.stanford.edu/accommodations/academic-accommodations">Office of Accessible Education (OAE)</a>.
                     The OAE will evaluate the request, recommend accommodations, and prepare a letter for faculty. Students should contact the OAE as soon as possible since timely notice is needed to coordinate accommodations.</li>
                 <li><b>Honor code</b>: Very important. See <a href="#honor-code">Honor Code</a>.</li>
@@ -69,6 +69,10 @@
                 </div>
             </div>
             <div class="col-md-5">
+                <h3>TAs</h3>
+                TBD
+            </div>
+            <!-- <div class="col-md-5">
                 <h3>TAs</h3>
                 <div class="instructor">
                     <a href="https://krandiash.github.io/">
@@ -103,7 +107,7 @@
                         <div>Christopher Ré</div>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -114,13 +118,12 @@
             <h2>Overview</h2>
             <h3><i class="fas fa-bolt"></i> What is this course about?</h3>
             <p>
-                This course aims to provide an iterative framework for designing real-world machine learning systems. The goal of this framework is to build a system that is deployable, reliable, and scalable.<br><br>
+                This course aims to provide an iterative framework for developing real-world machine learning systems that are deployable, reliable, and scalable.<br><br>
 
-                It starts by considering all stakeholders of each machine learning project and their objectives. Different objectives require different design choices, and this book will discuss the tradeoffs of those choices.<br><br>
+                It starts by considering all stakeholders of each machine learning project and their objectives. Different objectives require different design choices, and this course will discuss the tradeoffs of those choices.<br><br>
 
-                The course covers all the steps from project scoping, data management, model development, deployment, infrastructure, team structure, to business analysis. At each step, it goes over the motivations, challenges, and limitations, if any, of different solutions. The course ends with a discussion on the future of the machine learning production ecosystem.<br><br>
-
-                In the process, students will learn about important issues including privacy, fairness, and security.<br>
+                Students will learn about data management, data engineering, feature engineering, approaches to model selection, training, scaling, how to continually monitor and deploy changes to ML systems, as well as the human side of ML projects such as team structure and business metrics. In the process, students will learn about important issues including privacy, fairness, and security. 
+                <br>
             </p>
 
             <h3><i class="fas fa-bullseye"></i> Why machine learning systems design?</h3>
@@ -154,77 +157,80 @@
             </ul>
 
             <h3 id="honor-code" id="audit"><i class="fas fa-user-plus"></i> Audit policy</h3>
-            <p>We’re generally open to auditing requests by all Stanford affiliates. External requests will be determined on a case by case basis, mostly because the course is hosted on Canvas and we’re not sure how non-Stanford affiliates access Canvas.</p>
+            <p>We’re open to auditing requests by Stanford students and staff. You will be able to attend all the lectures, but we won't be able to grade your homework or give advice on final projects. Our human resources are limited.To audit the class, please send cs329s-win2021-staff@lists.stanford.edu an email with the subject title "CS329S: Audit Request" with a few sentences introducing yourself and your relevant background.<p>
+            
+            <p>Because the course is in-person on campus, external requests will not be considered.</p>
 
-            <p>You will be able to attend all the lectures, but we won't be able to grade your homework or give advice on final projects. Our human resources are limited. There are only four of us and on top of teaching, we also have full-time jobs or are full-time students.</p>
-
-            <p>Even if you’re not auditing, you can still access all the slides, (very intensive) notes, assignments, and final project instructions. These are posted on the Syllabus page.
-
-            <p><b>To audit the class, please send cs329s-win2021-staff@lists.stanford.edu an email with the subject title "CS329S: Audit Request" with a few sentences introducing yourself and your relevant background.</b></p>
-
-            <p>We’ll add you as an observer on Canvas -- you need to create an account on Canvas first. You can attend all lectures scheduled there.</p>
-
-            <ul>
-                <li>You’re welcome to participate in the discussion in lectures, but please check out the previous lectures first otherwise you might find lectures confusing!</li>
-                <li>You’re welcome to attend OHs, though if there are more enrolled students waiting in the line, they’ll be given priority.</li>
-                <li>Your feedback is much appreciated. If there’s any concept that you find confusing, incorrect or missing, please let us know!</li>
-            </ul>
+            <p>The slides, (very intensive) notes, assignments, and final project instructions will be made publicly availalbe on the Syllabus page.
 
             <h3><i class="fas fa-book"></i> Reference Text</h3>
             <p>
-                There's no textbook. The course relies on lecture notes and accompanying readings.
+                The course relies on lecture notes and accompanying readings.<br><br>
+                <!-- <b>Relevant books to the course</b> (not official textbooks):
+                <ul>
+                    <li><a href="https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/">Designing Machine Learning Systems</a> (Chip Huyen, O'Reilly '22).</li>
+                    <li><a href="">Reliable Machine Learning</a> (Chen et al., O'Reilly '22')</li>
+                </ul> -->
             </p>
         </div>
     </div>
     <div class="container sec" id="faq" style="margin-top:-20px"><br>
         <h2>FAQ</h2>
         <div class="qqa">
-        <div class="qq">Is this the first time the course is offered?</div>
-        <div class="qa">Yes. We're all a little nervous, and we're trying our best to ensure the quality of the lectures, but here and there things might not be as polished as other courses. Your feedback will be greatly appreciated.</div>
-      </div>
-      <div class="qqa">
-        <div class="qq">Does the course count towards CS degrees?</div>
-        <div class="qa">
-            For undergraduates, CS 329S can be used as a Track C requirement for the AI track. And it can be used as a general elective for the AI track. For all other tracks, they would need to petition to use the course.<br>
+            <div class="qq">How difficult is the course?</div>
+            <div class="qa">
+                The materials are not difficult to understand, but the final projects are fairly involved. We wouldn't recommend taking the course unless you're ready to build things and learn from hands-on experience!
+            </div>
+        </div>
+        <div class="qqa">
+            <div class="qq">Does the course count towards CS degrees?</div>
+            <div class="qa">
+                For undergraduates, CS 329S can be used as a Track C requirement or a general elective for the AI track. For all other tracks, they would need to petition to use the course.<br><br>
 
-            For master's students, CS 329S can satisfy the AI Specialization Depth C requirement. It can be used as a general elective for all MS students, regardless of their specialization.
+                For master's students, CS 329S can satisfy the AI Specialization Depth C requirement. It can also be used as a general elective for all MS students, regardless of their specialization.
+            </div>
         </div>
-      </div>
-      <div class="qqa">
-        <div class="qq">Are lectures recorded?</div>
-        <div class="qa">Yes, the lectures will be recorded and made available to enrolled students, including SCPD students.</div>
-      </div>
-      <div class="qqa">
-        <div class="qq">Will the videos be made available publicly?</div>
-        <div class="qa">We won't know untile the end of the course. We're trying, but it's not solely our decision to make. We'll announce on the <a href="http://mailman.stanford.edu/mailman/listinfo/cs329s-win2021-guests">guest mailing list</a> if and when the videos are available.</div>
-      </div>
-      <div class="qqa">
-        <div class="qq">Is attendance mandatory?</div>
-        <div class="qa">We won't be taking attendance but we expect to see you often in class. We love talking to students to understand how you are doing, make sure you get the most out of the class, and get your feedback to improve the materials. The class is relatively small so we will probably get to know each other well.<br>
-        If you have a time conflict and can't attend the online lectures, please send us an email to let us know!
+        <div class="qqa">
+            <div class="qq">Are lectures recorded?</div>
+            <div class="qa">Yes, the lectures will be recorded and made available to enrolled students, including SCPD students.</div>
         </div>
-      </div>
-      <div class="qqa">
-        <div class="qq">What is the format of the class?</div>
-        <div class="qa">It will be lectures, tutorials, and discussion. We will often have industry experts to give us tutorials on tools for data streaming, experiment tracking, deep learning framework, monitoring, etc.</div>
-      </div>
-       <div class="qqa">
-        <div class="qq">Do I need to know Python for the course?</div>
-        <div class="qa">Since Python has become the most popular language for machine learning, we expect most tutorials will be in Python. Python fluency isn't required, but will make your life so much easier during the course.
+        <div class="qqa">
+            <div class="qq">Will the videos be made available publicly?</div>
+            <div class="qa">We won't know untile the end of the course. We're trying, but it's not solely our decision to make. We'll announce on the <a href="http://mailman.stanford.edu/mailman/listinfo/cs329s-win2021-guests">guest mailing list</a> if and when the videos are available.</div>
         </div>
-      </div>
-      <div class="qqa">
-        <div class="qq">Can I follow along from the outside?</div>
-        <div class="qa">We'd be happy if you join us! All the slides and lecture notes will be posted on this website. You can also subscribe to the <a href="http://mailman.stanford.edu/mailman/listinfo/cs329s-win2021-guests">guest mailing list</a> to get updates from the course. </div>
-      </div>
-      <div class="qqa">
-        <div class="qq">Can I work in groups for the assignments?</div>
-        <div class="qa">Yes, in groups of up to two people.</div>
-      </div>
-      <div class="qqa">
-        <div class="qq">I have a question about the class. What is the best way to reach the course staff?</div>
-        <div class="qa">Please post your question on the <a href="http://piazza.com/stanford/winter2021/cs329s">course forum</a> so that other students can benefit from your questions. If you have a personal matter or emergencies, please email the staff at cs329s-win2021-staff@lists.stanford.edu.</div>
-      </div>
+        <div class="qqa">
+            <div class="qq">Is attendance mandatory?</div>
+            <div class="qa">We won't be taking attendance but we expect to see you often in class. We love talking to students to understand how you are doing, make sure you get the most out of the class, and get your feedback to improve the materials. The class is relatively small so we will probably get to know each other well.<br>
+            If you have a time conflict and can't attend the lectures, please send us an email to let us know!
+            </div>
+        </div>
+        <div class="qqa">
+            <div class="qq">What is the format of the class?</div>
+            <div class="qa">It will be lectures, tutorials, and discussion. We will often have industry experts to give us tutorials on tools for data streaming, experiment tracking, deep learning framework, monitoring, etc.</div>
+        </div>
+        <div class="qqa">
+            <div class="qq">Do I need to know Python for the course?</div>
+            <div class="qa">Since Python has become the most popular language for machine learning, we expect most tutorials will be in Python. Python fluency isn't required, but will make your life so much easier during the course.
+            </div>
+        </div>
+        <div class="qqa">
+            <div class="qq">Can I follow along from the outside?</div>
+            <div class="qa">We'd be happy if you join us! All the slides and lecture notes will be posted on this website. You can also subscribe to the <a href="http://mailman.stanford.edu/mailman/listinfo/cs329s-win2021-guests">guest mailing list</a> to get updates from the course. </div>
+        </div>
+        <div class="qqa">
+            <div class="qq">Can I work in groups for the assignments?</div>
+            <div class="qa">Yes, in groups of up to two people.</div>
+        </div>
+        <div class="qqa">
+            <div class="qq">How mature is the course?</div>
+            <div class="qa">
+                This is the second time the course is offered. The materials are a lot more developed compared to the first time, however, there is still a long way to go. We're trying our best to ensure the quality of the lectures, but here and there things might not be as polished as other courses. Your feedback will be greatly appreciated.
+            </div>
+        </div>
+        <div class="qqa">
+            <div class="qq">I have a question about the class. What is the best way to reach the course staff?</div>
+            <div class="qa">Please post your question on the <a href="http://piazza.com/stanford/winter2021/cs329s">course forum</a> so that other students can benefit from your questions. If you have a personal matter or emergencies, please email the staff at cs329s-win2021-staff@lists.stanford.edu.</div>
+        </div>
     </div>
 
 

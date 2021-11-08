@@ -4,7 +4,7 @@ document.write('\
 <nav class="navbar navbar-default navbar-fixed-top">\
   <div class="container">\
       <div class="navbar-header">\
-        <a class="navbar-brand brand" href="index.html">CS 329S</a>\
+        <a class="navbar-brand brand" href="https://cs329s.stanford.edu/index.html">CS 329S</a>\
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">\
                 <span class="icon-bar"></span>\
                 <span class="icon-bar"></span>\
@@ -18,6 +18,7 @@ document.write('\
               <li><a href="index.html#overview">Overview</a></li>\
               <li><a href="syllabus.html">Syllabus</a></li>\
               <li><a href="index.html#faq">FAQ</a></li>\
+              <li><a href="https://stanford-cs329s.github.io/reports/">Past projects</a></li>\
           </ul>\
       </div>\
   </div>\
