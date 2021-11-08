@@ -18,6 +18,7 @@ document.write('\
               <li><a href="index.html#overview">Overview</a></li>\
               <li><a href="syllabus.html">Syllabus</a></li>\
               <li><a href="index.html#faq">FAQ</a></li>\
+              <li><a href="https://stanford-cs329s.github.io/2021/">Past course</a></li>\
               <li><a href="https://stanford-cs329s.github.io/reports/">Past projects</a></li>\
           </ul>\
       </div>\
